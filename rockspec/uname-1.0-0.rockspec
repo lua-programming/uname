@@ -16,7 +16,7 @@ dependencies = {
 build = {
 	type = 'builtin',
 	modules = {
-		captcha = {
+		uname = {
 			sources = {'src/uname.c'},
 			libraries = {'m'}
 		}
