@@ -1,7 +1,6 @@
 package.cpath = '../?.so' -- set path for C modules
-local b = require 'uname'
-print(b)
 
+require 'uname'
 print("-------------- STRINGS --------------")
 local sysname, nodename = uname('sysname', 'nodename')
 local release, version, machine = uname('release', 'version', 'machine')
