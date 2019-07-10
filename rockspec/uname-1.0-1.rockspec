@@ -1,11 +1,11 @@
 package = 'uname'
-version = '1.0-0'
+version = '1.0-1'
 source = {
 	url = 'git://github.com/lua-programming/uname.git',
 	branch = 'master'
 }
 description = {
-	summary = 'Uname v1.0-0 by Otgo',
+	summary = 'Uname v'..version..' by Otgo',
 	detailed = 'Gets distribution information.',
 	homepage = 'https://github.com/lua-programming/uname',
 	license = 'MIT/X11'
